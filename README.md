@@ -5,7 +5,7 @@ jsFidlr
 This is a chrome extension to zip up and download jsFiddles
 
 ### TODO
-* add support for linked libraries (now only supposed vanilla js fiddles)
+* add support for linked libraries (currently only vanilla js fiddles)
 * add support for placement of script tags (currently appends to end of body)
 
 ### Thanks
