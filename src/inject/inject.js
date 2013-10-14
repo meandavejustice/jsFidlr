@@ -25,7 +25,6 @@ chrome.extension.sendMessage({}, function(response) {
         var endIndex = html.indexOf('</body>');
         var body = document.createElement('body');
         body.innerHTML = html.slice(beginIndex + 7, endIndex);
-        debugger;
         return body;
       }
 
@@ -45,7 +44,6 @@ chrome.extension.sendMessage({}, function(response) {
       }
 
       function prepareHtml(head) {
-        debugger;
         return '<!DOCTYPE html>' + '<html>' + head.outerHTML + body.outerHTML + '</html>';
       }
 
